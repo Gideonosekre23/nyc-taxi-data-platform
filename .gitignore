@@ -1,3 +1,17 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+
+
+
 # Data (reproducible by running the pipeline, never commit)
 data/
 *.duckdb
