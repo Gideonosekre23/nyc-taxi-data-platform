@@ -1,0 +1,13 @@
+# Data (reproducible by running the pipeline, never commit)
+data/
+*.duckdb
+*.duckdb.wal
+
+# dbt build artifacts
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+logs/
+
+# Env / secrets
+.env
